@@ -25,7 +25,7 @@ bool active = true;
 int main_server_fd, n_cache, active_threads = 0, max_clients = 50;
 int client_sockets_fd[50] = {0};
 
-/*Mutex para controlar las variables compartidas client_sockets_fd, cache y 
+/*Mutexes para controlar las variables compartidas client_sockets_fd, cache y 
 active_threads
 */
 
@@ -145,7 +145,7 @@ void insert_data_to_cache(std::string request, std::string md5_request)
     Función utilizada por los hilos "separados" (detach), utilizo mutex
     para modificar variables compartidas. Hace el cáculo de md5 y espera
     el tiempo correspondiente, cuando acaba envía y hace shutdown 
-    dejandolo libre para su reuso.
+    dejando libre el socket para su reuso.
 */
 void wait_send(std::string request, int i)
 {
