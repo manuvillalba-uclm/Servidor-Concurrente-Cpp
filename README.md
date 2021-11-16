@@ -37,5 +37,5 @@ C17 (en caso de C).
 Donde -p x es el puerto por donde escuchará el servidor, -C y es el tamaño de la caché, esta última opción no es obligatoria y por defecto es 0.
 
 ## Otros trabajos relacionados
-Proyecto del grado en ingeniería informática, es de hace dos años, y tiene también manejo de peticiones concurrente [Servidor/Cliente TCP-UDP en Python](https://github.com/manuvillalba-uclm/Servidor-Cliente-TCP-UDP-Videos)
-Proyecto personal de web-scraping, donde utilizo threadpool para acceder a diversas páginas web de manera también concurrente. (Repositorio privado)
+- Proyecto del grado en ingeniería informática, es de hace dos años, y tiene también manejo de peticiones concurrente [Servidor/Cliente TCP-UDP en Python](https://github.com/manuvillalba-uclm/Servidor-Cliente-TCP-UDP-Videos)
+- Proyecto personal de web-scraping, donde utilizo threadpool para acceder a diversas páginas web de manera también concurrente. (Repositorio privado)
