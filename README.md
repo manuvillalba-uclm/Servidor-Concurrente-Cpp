@@ -1,7 +1,7 @@
 # Servidor-Concurrente-Cpp
 
 ## Resumen
-Servidor creado por Manuel Villalba Montalbán en C++ 17 utilizando un enfoque asíncrono para mantener y controlar las conexiones con los clientes e hilos, sin threadpool, para realizar el cálculo y esperar (sleep) cada petición.
+Servidor creado por Manuel Villalba Montalbán en C++ 17 utilizando un enfoque asíncrono para mantener y controlar las conexiones con los clientes. También se han utilizado hilos, sin threadpool, para realizar el cálculo y esperar (sleep) cada petición.
 
 El servidor tiene las siguientes características:
 
